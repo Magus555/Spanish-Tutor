@@ -1,0 +1,132 @@
+{
+  "current_level": "A1",
+  "active_topic": "Ordering at a Café",
+  "known_words": [
+    {
+      "word": "hola",
+      "meaning": "hello",
+      "mastery": 1.0,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T12:08:10.698230"
+    },
+    {
+      "word": "por favor",
+      "meaning": "please",
+      "mastery": 1.0,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:35:10.521085"
+    },
+    {
+      "word": "gracias",
+      "meaning": "thank you",
+      "mastery": 0.9,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:28:37.080732"
+    },
+    {
+      "word": "un café",
+      "meaning": "a coffee",
+      "mastery": 1.0,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T12:13:45.640856"
+    },
+    {
+      "word": "con leche",
+      "meaning": "with milk",
+      "mastery": 0.8999999999999999,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T12:13:45.640856"
+    },
+    {
+      "word": "cuánto cuesta",
+      "meaning": "how much does it cost",
+      "mastery": 0.1,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:28:37.080732"
+    },
+    {
+      "word": "una taza",
+      "meaning": "a cup",
+      "mastery": 0.2,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:28:37.080732"
+    },
+    {
+      "word": "agua",
+      "meaning": "water",
+      "mastery": 0.2,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:28:37.080732"
+    },
+    {
+      "word": "sin azúcar",
+      "meaning": "without sugar",
+      "mastery": 0.5,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:34:50.389371"
+    },
+    {
+      "word": "un vaso",
+      "meaning": "a glass",
+      "mastery": 0.5,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:50:46.655536"
+    },
+    {
+      "word": "sin hielo",
+      "meaning": "no ice",
+      "mastery": 0.5,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T11:51:07.426864"
+    },
+    {
+      "word": "un plato",
+      "meaning": "a plate",
+      "mastery": 0.5,
+      "introduced": true,
+      "last_reviewed": "2026-08-20T12:14:03.954227"
+    }
+  ],
+  "target_words": [
+    {
+      "word": "la cuenta",
+      "meaning": "the bill",
+      "introduced": true
+    },
+    {
+      "word": "con leche",
+      "meaning": "with milk",
+      "introduced": true
+    },
+    {
+      "word": "una taza",
+      "meaning": "a cup",
+      "introduced": true
+    },
+    {
+      "word": "agua",
+      "meaning": "water",
+      "introduced": true
+    },
+    {
+      "word": "sin azúcar",
+      "meaning": "without sugar",
+      "introduced": true
+    },
+    {
+      "word": "un vaso",
+      "meaning": "a glass",
+      "introduced": true
+    },
+    {
+      "word": "sin hielo",
+      "meaning": "no ice",
+      "introduced": true
+    },
+    {
+      "word": "un plato",
+      "meaning": "a plate",
+      "introduced": true
+    }
+  ]
+}
