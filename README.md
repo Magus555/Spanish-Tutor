@@ -22,10 +22,28 @@ A local, voice-driven AI tutor built in Python for practicing conversational Spa
 ### Prerequisites
 * Python 3.10+
 * Virtual environment (`.venv`) set up
+* [Ollama](https://ollama.com/) installed and running locally
+  * Assumes Ollama is running on the default local endpoint (`http://localhost:11434`).
+  * Ensure you have pulled the model referenced in the code (e.g., `ollama pull llama3`).
+
+> **Note on Hardware:** Running a local LLM alongside TTS synthesis requires sufficient CPU/GPU and RAM. Latency and responsiveness will depend on your system specs.
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Magus555/Spanish-Tutor.git](https://github.com/Magus555/Spanish-Tutor.git)
+1. Clone the repository:
+   git clone https://github.com/Magus555/Spanish-Tutor.git
    cd Spanish-Tutor
+
+2. Set up the virtual environment:
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. **Download Voice Weights:**
+   Download `voices-v1.0.bin` and `kokoro-v1.0.onnx` from the [Kokoro ONNX releases](https://github.com/thewhitetulip/kokoro-onnx/releases) and place them in the project root.
+   * *Note:* The code defaults to the `es_dora` Spanish voice embedding included in `voices-v1.0.bin`.
+
+5. Run the Application:
+   python app.py
